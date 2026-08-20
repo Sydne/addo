@@ -7,7 +7,7 @@ import mec_sim.plotting as plotting
 exp_dir = Path("results/exp2_v_tradeoff")
 policies = ["ADDO", "ADDO-SQ", "DAEE"]
 metrics = {
-    "avg_operating_cost": "Average energy cost (J)",
+    "avg_operating_cost": "Average energy cost (J/slot)",
     "avg_sojourn_slots": "Average delay (slots)",
     "timeout_ratio": "Deadline violation ratio",
 }
